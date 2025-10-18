@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  display: flex;
+  box-shadow: 0 6px 2px rgb(0 0 0 / 15%);
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__paragraph {
+  font-size: 24px;
+  font-family: inherit;
+  margin: 0 12px;
+  color: gray;
+}
