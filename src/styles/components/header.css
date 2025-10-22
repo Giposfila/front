@@ -13,10 +13,14 @@
   box-shadow: 0 6px 2px rgb(0 0 0 / 15%);
   align-items: center;
   width: 100%;
+  padding: 1.5em;
 }
 
 .header--right {
   justify-content: end;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .header__logo {
@@ -24,24 +28,4 @@
   margin-left: 155px;
   width: 250px;
   height: auto;
-}
-
-.header__paragraph {
-  font-size: 15px;
-  font-family: Inter, sans-serif;
-  color: gray;
-  margin: 0 24px;
-  display: flex;
-}
-
-.header__link {
-  color: #0070a0;
-  margin: 0 24px;
-  padding: 1.5em;
-}
-
-.header__btn {
-  background-color: #0070a0;
-  height: 36px;
-  width: 139px;
 }

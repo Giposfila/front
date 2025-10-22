@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 155px;
+  width: 80%;
+}
+
+.hero__arcticle {
+  width: 50%;
+}
+
+.hero__description {
+  width: 70%;
+}
+
+.hero--interactive {
+  display: flex;
+  margin-top: 25px;
+}
+
+.company__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.companys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

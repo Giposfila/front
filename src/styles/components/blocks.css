@@ -1,0 +1,16 @@
+.block {
+  width: 20em;
+  height: 14em;
+  margin: 0 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.blocks-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -4,3 +4,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.header--button {
+  height: 36px;
+  width: 139px;
+  margin-right: 160px;
+}
+
+.hero__button {
+  height: 43px;
+  width: 174px;
+}
