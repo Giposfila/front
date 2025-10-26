@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 70px 155px;
   width: 80%;
@@ -31,4 +31,33 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.blue__area {
+  background-color: #0070a0;
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+}
+
+.blue__arcticle {
+  width: 50%;
+}
+
+.blue__description {
+  width: 70%;
+}
+
+.blue__svg {
+  width: 50%;
+  display: flex;
 }

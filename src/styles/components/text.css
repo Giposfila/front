@@ -6,6 +6,14 @@
   display: flex;
 }
 
+.b {
+  color: black;
+}
+
+.w {
+  color: white;
+}
+
 .link--header {
   color: #0070a0;
   margin: 0 24px;
@@ -15,7 +23,6 @@
 
 .title--hero {
   font-size: 58px;
-  color: black;
 }
 
 .hero--description {
@@ -27,7 +34,8 @@
 .company--title {
   font-size: 25px;
   color: black;
-  display: inline;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .company--name {
@@ -39,4 +47,13 @@
   color: black;
   display: flex;
   align-items: center;
+  width: 60%;
+}
+
+.block--text--about {
+  font-size: 15px;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
 }
