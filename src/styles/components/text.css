@@ -1,4 +1,4 @@
-.paragraph--header {
+.header__paragraph {
   font-size: 15px;
   font-family: Inter, sans-serif;
   color: gray;
@@ -14,35 +14,35 @@
   color: white;
 }
 
-.link--header {
+.header__link {
   color: #0070a0;
   margin: 0 24px;
   display: flex;
   align-items: center;
 }
 
-.title--hero {
+.hero__title {
   font-size: 58px;
 }
 
-.hero--description {
+.hero__description {
   font-family: Inter, sans-serif;
   font-size: 20px;
   color: gray;
 }
 
-.company--title {
+.company__title {
   font-size: 25px;
   color: black;
   display: flex;
   flex-shrink: 0;
 }
 
-.company--name {
+.company__name {
   margin: 40px;
 }
 
-.block--text {
+.block__text {
   font-size: 15px;
   color: black;
   display: flex;
@@ -50,7 +50,7 @@
   width: 60%;
 }
 
-.block--text--about {
+.block__text--about {
   font-size: 15px;
   color: black;
   display: flex;

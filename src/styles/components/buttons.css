@@ -5,13 +5,13 @@
   align-items: center;
 }
 
-.header--button {
+.btn__header {
   height: 36px;
   width: 139px;
   margin-right: 160px;
 }
 
-.hero__button {
+.btn__hero {
   height: 43px;
   width: 174px;
 }

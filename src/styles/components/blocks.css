@@ -8,7 +8,7 @@
   padding: 32px;
 }
 
-.about--block {
+.block__about {
   width: 14em;
   height: 14em;
   display: flex;
@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-.blocks-area {
+.block__area {
   display: flex;
   justify-content: center;
   align-items: center;

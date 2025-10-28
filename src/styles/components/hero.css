@@ -14,7 +14,7 @@
   width: 70%;
 }
 
-.hero--interactive {
+.hero-__interactive {
   display: flex;
   margin-top: 25px;
 }
@@ -31,6 +31,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.blue {
+  background-color: #0070a0;
+  display: flex;
 }
 
 .blue__area {

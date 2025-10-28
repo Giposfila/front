@@ -16,7 +16,7 @@
   padding: 1.5em;
 }
 
-.header--right {
+.header__right {
   justify-content: end;
   display: flex;
   align-items: center;
