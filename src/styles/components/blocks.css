@@ -24,3 +24,11 @@
   align-items: center;
   width: 100%;
 }
+
+.block__posts {
+  margin: 0 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 32px;
+}

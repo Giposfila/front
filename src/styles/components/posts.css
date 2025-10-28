@@ -1,0 +1,17 @@
+.posts {
+  display: block;
+  background-color: #f7f9fa;
+  padding: 80px;
+}
+
+.posts__title {
+  font-size: 42px;
+  color: black;
+  display: flex;
+}
+
+.posts__area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
