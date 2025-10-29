@@ -1,0 +1,136 @@
+.footer {
+  padding: 32px 0;
+  background: #fff;
+  color: #222;
+  font-size: 15px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 32px;
+  margin-bottom: 20px;
+}
+
+.footer__brand {
+  max-width: 200px;
+}
+
+.footer__logo img {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+.footer__powered {
+  color: #6c6c6c;
+  font-size: 0.95rem;
+}
+
+.footer__author,
+.footer__platform {
+  color: #078bbd;
+  text-decoration: underline;
+}
+
+.footer__info {
+  display: flex;
+  gap: 48px;
+}
+
+.footer__column {
+  min-width: 180px;
+}
+
+.footer__title {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 1.05em;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__item {
+  margin-bottom: 8px;
+}
+
+.footer__link {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: #078bbd;
+}
+
+.footer__newsletter-text {
+  margin-bottom: 12px;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.footer__form {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  max-width: 210px;
+  margin-bottom: 8px;
+}
+
+.footer__input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 0.95rem;
+  background: none;
+  padding: 4px 0;
+}
+
+.footer__submit {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #078bbd;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.footer__copyright {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 18px;
+}
+
+.footer__social {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__social--twitter {
+  background-image: url('twitter.svg');
+}
+
+.footer__social--linkedin {
+  background-image: url('linkedin.svg');
+}
+
+.footer__social--facebook {
+  background-image: url('facebook.svg');
+}
