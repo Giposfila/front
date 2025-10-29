@@ -1,3 +1,35 @@
 .automated {
   display: flex;
+  padding: 30px 155px;
+}
+
+.automated__top {
+  display: block;
+  padding: 30px 155px;
+}
+
+.automated__arcticle {
+  font-size: 32px;
+  color: black;
+}
+
+.automated__description {
+  width: 50%;
+  color: black;
+}
+
+.automated__title {
+  font-size: 20px;
+  color: black;
+}
+
+.automated__block {
+  font-size: 12px;
+  color: black;
+}
+
+.automated__text {
+  font-size: 12px;
+  color: black;
+  width: 50%;
 }

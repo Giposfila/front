@@ -65,10 +65,6 @@
   transition: color 0.2s;
 }
 
-.footer__link:hover {
-  color: #078bbd;
-}
-
 .footer__newsletter-text {
   margin-bottom: 12px;
   color: #444;
@@ -103,7 +99,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 18px;
+  padding: 18px 10%;
 }
 
 .footer__copyright {
@@ -122,16 +118,4 @@
   display: inline-block;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.footer__social--twitter {
-  background-image: url('twitter.svg');
-}
-
-.footer__social--linkedin {
-  background-image: url('linkedin.svg');
-}
-
-.footer__social--facebook {
-  background-image: url('facebook.svg');
 }

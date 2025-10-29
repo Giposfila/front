@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('../assets/fonts/inter-regular.woff2') format('woff2'),
+    url('../assets/fonts/inter-regular.woff') format('woff');
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -12,21 +22,24 @@
 
 .hero__description {
   width: 70%;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  color: gray;
 }
 
-.hero-__interactive {
+.hero__interactive {
   display: flex;
   margin-top: 25px;
 }
 
-.company__block {
+.companys {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.companys {
+.company__block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,6 +75,7 @@
 
 .blue__description {
   width: 90%;
+  padding: 20px 0;
 }
 
 .blue__svg {
@@ -78,22 +92,4 @@ ul.checklist li::before {
   content: '✓ ';
   font-weight: bold;
   margin-right: 8px;
-}
-
-.automated {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 80px;
-}
-
-.automated__title {
-  font-size: 42px;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  margin-right: 100px;
 }

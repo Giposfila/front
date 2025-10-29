@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('../assets/fonts/inter-regular.woff2') format('woff2'),
+    url('../assets/fonts/inter-regular.woff') format('woff');
+}
+
 .header__paragraph {
   font-size: 15px;
   font-family: Inter, sans-serif;
@@ -6,29 +16,17 @@
   display: flex;
 }
 
-.b {
-  color: black;
-}
-
-.w {
-  color: white;
-}
-
 .header__link {
   color: #0070a0;
   margin: 0 24px;
   display: flex;
   align-items: center;
+  font-family: Inter, sans-serif;
 }
 
 .hero__title {
   font-size: 58px;
-}
-
-.hero__description {
-  font-family: Inter, sans-serif;
-  font-size: 20px;
-  color: gray;
+  color: black;
 }
 
 .company__title {
@@ -40,14 +38,6 @@
 
 .company__name {
   margin: 40px;
-}
-
-.block__text {
-  font-size: 15px;
-  color: black;
-  display: flex;
-  align-items: center;
-  width: 60%;
 }
 
 .block__text--about {
