@@ -1,0 +1,81 @@
+.relax {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 105px;
+}
+
+.relax__content {
+  max-width: 490px;
+}
+
+.relax__title {
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.relax__accordion {
+  width: 100%;
+  background: none;
+}
+
+.accordion__item {
+  border-bottom: 1px solid #e1e1e1;
+  background: none;
+}
+
+.accordion__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 18px 0 14px;
+}
+
+.accordion__icon {
+  width: 28px;
+  height: 28px;
+  fill: #3e6c8e;
+  flex-shrink: 0;
+}
+
+.accordion__title {
+  font-size: 1.15rem;
+  color: #3e6c8e;
+  font-weight: 500;
+}
+
+.accordion__item--active .accordion__title {
+  color: #222;
+  font-weight: 600;
+}
+
+.accordion__toggle {
+  margin-left: auto;
+  width: 18px;
+  height: 18px;
+  background: url('arrow-down.svg') center no-repeat;
+  opacity: 0.5;
+}
+
+/* Повернуть стрелку вверх если открыт */
+.accordion__item--active .accordion__toggle {
+  transform: rotate(180deg);
+  opacity: 0.8;
+}
+
+.accordion__body {
+  padding: 0 0 16px 45px;
+  font-size: 1rem;
+  color: #444;
+  max-width: 440px;
+}
+
+.relax__image {
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+}

@@ -9,8 +9,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #eee;
-  padding-bottom: 32px;
-  margin-bottom: 20px;
+  padding: 105px;
 }
 
 .footer__brand {
@@ -36,10 +35,12 @@
 .footer__info {
   display: flex;
   gap: 48px;
+  justify-content: space-between;
 }
 
 .footer__column {
-  min-width: 180px;
+  min-width: 10%;
+  max-width: 20%;
 }
 
 .footer__title {
