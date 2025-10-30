@@ -7,7 +7,6 @@
 }
 
 .relax__content {
-  
 }
 
 .relax__title {
@@ -62,12 +61,6 @@
   opacity: 0.5;
 }
 
-/* Повернуть стрелку вверх если открыт */
-.accordion__item--active .accordion__toggle {
-  transform: rotate(180deg);
-  opacity: 0.8;
-}
-
 .accordion__body {
   padding: 0 0 16px 45px;
   font-size: 1rem;
@@ -81,4 +74,3 @@
   align-items: center;
   padding: 10% 1%;
 }
-
