@@ -6,7 +6,7 @@
   padding: 155px;
 }
 
-.about__title {
+.about__arcticle {
   font-size: 42px;
   color: black;
   display: flex;
@@ -14,4 +14,30 @@
   align-items: center;
   flex-shrink: 0;
   padding-right: 100px;
+}
+
+.about___title {
+  font-size: 25px;
+  color: black;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.about___block {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.about__text {
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 60%;
 }

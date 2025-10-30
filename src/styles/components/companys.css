@@ -1,0 +1,22 @@
+.companys__blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.companys__name {
+  padding: 0px 40px;
+  width: 20%;
+}
+
+.companys__title {
+  font-size: 25px;
+  color: black;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}

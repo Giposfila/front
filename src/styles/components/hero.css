@@ -37,31 +37,6 @@
   margin-top: 25px;
 }
 
-.companys {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.company__block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.company__title {
-  font-size: 25px;
-  color: black;
-  display: flex;
-  flex-shrink: 0;
-}
-
-.company__name {
-  margin: 40px;
-}
-
 .blue {
   background-color: #0070a0;
   display: flex;
