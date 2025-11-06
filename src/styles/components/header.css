@@ -16,6 +16,16 @@
   padding: 1.5em;
 }
 
+.header__btn {
+  font-family: Inter, sans-serif;
+  background-color: #0070a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 139px;
+}
+
 .header__paragraph {
   font-size: 15px;
   font-family: Inter, sans-serif;

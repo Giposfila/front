@@ -1,6 +1,5 @@
 .automated {
-  display: flex;
-  padding: 30px 155px;
+  padding-top: 100px;
 }
 
 .automated__top {
@@ -21,6 +20,11 @@
 .automated__title {
   font-size: 20px;
   color: black;
+}
+
+.automated__blocks {
+  display: flex;
+  padding: 30px 155px;
 }
 
 .automated__block {
