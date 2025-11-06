@@ -17,6 +17,18 @@
   padding: 32px;
 }
 
+.blocks__block--yellow {
+  background-color: #faea73;
+}
+
+.blocks__block--blue {
+  background-color: #cceff6;
+}
+
+.blocks__block--red {
+  background-color: #f7cedc;
+}
+
 .blocks__title {
   font-size: 25px;
   color: black;

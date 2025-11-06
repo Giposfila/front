@@ -36,6 +36,18 @@
   justify-content: center;
 }
 
+.posts__img--yellow {
+  background-color: #faea73;
+}
+
+.posts__img--blue {
+  background-color: #cceff6;
+}
+
+.posts__img--red {
+  background-color: #f7cedc;
+}
+
 .posts__content {
   padding: 22px 26px 18px;
   display: flex;
